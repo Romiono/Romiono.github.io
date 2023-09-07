@@ -6,36 +6,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="root">
-<a name="top"></a>
-<a href="http://kubsu.ru/">КубГу</a>
-<a href="https://kubsu.ru/">КубГу</a>
+<a href="http://kubsu.ru/">абсолютная ссылка КубГу</a>
+<a href="https://kubsu.ru/">абсолютная ссылка КубГу в протаколе https</a>
 <a href="#"><img class="imgHref" src="images/image.jpg"></a>
-<a href="demos/form.html">ссылка на внутреннюю страницу</a>
-<a href="/">Главная</a>
-<a href="#top">верхняя часть страницы</a>
-<a href="http://kubsu.ru/?product=socks&color=black&size=m">КубГу</a>
-<a href="http://kubsu.ru/?id=1">КубГу</a>
+<a href="./page2.html">cокращенная ссылка на внутреннюю страницу</a>
+<a href="./index.html">ссылка на главную</a>
+<a href="#bottom">нижняя часть страницы(фрагмент текущей)</a>
+<a href="http://kubsu.ru/?product=socks&color=black&size=m">ссылка с тремя параметрами кубгу</a>
+<!--  параметры выдумал, так не знаю какие они есть конкретно на сайте универа  -->
+<a href="http://kubsu.ru/?id=1">Ссылка с параметром id</a>
 <a href="./page2.html">Относительная ссылка на страницу в текущем каталоге</a>
 <a href="./about/about.html">Относительная ссылка на about в каталоге about</a>
-<a href="./about/about.html">Относительная ссылка на about</a>
-<p>Мы все учимся в <a href="https://kubsu.ru/">КубГу</a></p>
-<a href="https://www.kubsu.ru/index.php/#section-content">КубГу контент</a>
+<!-- ссылка на католог выше находится в about.html -->
+<a href="./level1/level2/page3.html">ссылка на два каталога ниже(выше на 2 будет на странице под этой ссылке)</a>
+<p>Мы все учимся в <a id="aInText" href="https://kubsu.ru/">КубГу</a>(контекстная ссылка в тексте)</p>
+<a href="https://www.kubsu.ru/index.php/#section-content">ссылка на секцию в стороннем сайте</a>
 <!--  задание с ссылкой на конкретный элемент стороннего сайта
 сделать довольно сложно с сайтом кубгу, так там нет
 якорей(возможно я не нашел), я использовал для этого айди  -->
+
 <map name="имя">
-    <area href="./about/about.html" shape="poly" alt="ссылка на квадратном объекте" class="mapHref">
-    <area href="./about/about.html" shape="poly" alt="ссылка на круглом объекте" class="mapHref" style="border-radius: 50px">
+    <area href="https://kubsu.ru/" shape="poly" alt="ссылка на квадратном объекте" class="mapHref">
+    <area href="https://kubsu.ru/" shape="poly" alt="ссылка на круглом объекте" class="mapHref" style="border-radius: 50px">
 </map>
-<a href="">пустая ссылка</a>
+<!--сделал им рамки для видимости, но сами ссылки ведут на кубгу-->
+<a href="">ссылка с пустым href</a>
 <a> ссылка без href</a>
 <a href="https://kubsu.ru/" rel="nofollow">ссылка по которой нельзя следовать яндексу</a>
 <a href="https://kubsu.ru/" rel="noindex">ссылка по которой нельзя индексировать яндексу</a>
 <ol>
-    <li title="первый"><a href="/">ссылка в списке</a></li>
-    <li title="второй"><a href="/">ссылка в списке</a></li>
-    <li title="третий"><a href="/">ссылка в списке</a></li>
+    <li title="первый"><a href="/">ссылка в списке 1</a></li>
+    <li title="второй"><a href="/">ссылка в списке 2</a></li>
+    <li title="третий"><a href="/">ссылка в списке 3</a></li>
 </ol>
-<a name="botton"></a>
+<a name="bottom">якорь(сделал видимым для наглядности)</a>
 </body>
 </html>
