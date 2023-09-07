@@ -1,5 +1,45 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: bisque;
+    border: brown solid 1px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#aInText {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
+
+li {
+    margin: 30px;
+}
+
 .imgHref {
     width: 200px;
     height: 200px;
     display: block;
 }
+
+.mapHref {
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid rebeccapurple;
+}
+
